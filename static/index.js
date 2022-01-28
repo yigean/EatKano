@@ -442,10 +442,10 @@ const MODE_NORMAL = 1, MODE_ENDLESS = 2, MODE_PRACTICE = 3;
         }
 
         if (cps <= 5) return '魔理沙睡着了w？';
-        if (cps <= 8) return '幻想乡的异类';
-        if (cps <= 10)  return '魔理沙被吵醒了w';
+        if (cps <= 8) return '魔理沙被吵醒了w';
+        if (cps <= 10)  return '欢迎来到幻想乡';
         if (cps <= 15) return '魔炮-超究极火花！';
-        return '欢迎来到幻想乡？';
+        return '幻想乡的异类？';
     }
 
     function toStr(obj) {
